@@ -1,3 +1,6 @@
+
+
+
 #######################
 Starter Webapp - Quotes
 #######################
@@ -5,6 +8,26 @@ Starter Webapp - Quotes
 This is the starter webapp for Tutorial ci-normal01
 
 It is purposefully broken.
+
+
+**************
+Group:
+**************
+CooperWoro (Cooper Worobetz) A00925321
+LabSquid (Patrick Voth) A00932944
+
+**************
+Conventions
+**************
+
+Brackets to be on different levels eg {
+
+}
+
+Using spaces, not tabs
+
+
+
 
 **************
 Intended Usage
