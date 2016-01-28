@@ -15,6 +15,7 @@ Group:
 **************
 CooperWoro (Cooper Worobetz) A00925321
 LabSquid (Patrick Voth) A00932944
+Cooper is going to do link 1, 3, 5, and 7
 
 **************
 Conventions
