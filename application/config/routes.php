@@ -41,6 +41,18 @@
 $route['default_controller'] = "welcome";
 $route['404_override'] = '';
 $route['lock/(:any)/(:any)'] = "welcome/shucks";
+$route['dunno'] = function(){
+
+		//couldn't get it to load the helper(file) as it can't be done in routes.php
+		$source = "data/alright_PipBoy.jpg"; 
+		$mimeType = mime_content_type($source);
+		header("Content-type: " . $mimeType);
+		header('Content-Disposition: inline');
+		readfile($source);
+		die(); 
+	};
+	
+
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
