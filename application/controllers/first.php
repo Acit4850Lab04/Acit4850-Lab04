@@ -5,8 +5,7 @@ class First extends Application {
 	    parent::__construct();
 	}
 	
-    public function index()
-    {
+    public function index(){
 		$this->data['pagebody'] = 'justone'; // this is the view we want shown
 		$this->load->model('Quotes');		
 	    $first = $this->Quotes->first();
@@ -15,6 +14,10 @@ class First extends Application {
 		$this->data['who'] = $first['who'];
 		$this->data['mug'] = $first['mug'];
 		$this->render();
+	}
+	
+	public function zzz(){
+		$this->index();
 	}
 }
 ?>
