@@ -54,7 +54,7 @@ $route['dunno'] = function(){
 $route['comp([0-9]+)/.+'] = "wise/bingo";
 $route['sleep'] = 'first/zzz';
 $route['show/[0-9]'] = 'first/gimmie/3';
-$route['wise/(bingo)|(\b(\w){4}\b)'] = 'bingo';
+$route['wise/((bingo)|(\b(\w){4}\b))'] = 'bingo';
 	
 
 

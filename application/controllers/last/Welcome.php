@@ -8,9 +8,10 @@
  *
  * ------------------------------------------------------------------------
  */
-class Last extends Application {
+class Welcome extends Application {
 
-	function __construct(){
+	function __construct()
+	{
 		parent::__construct();
 	}
 
@@ -18,7 +19,8 @@ class Last extends Application {
 	//  The normal pages
 	//-------------------------------------------------------------
 
-	function index(){
+	function index()
+	{
 		$this->data['pagebody'] = 'justone';	// this is the view we want shown
 		// build the quote, to pass on to our view
 		$this->load->model('Quotes');
