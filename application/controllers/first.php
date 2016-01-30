@@ -19,5 +19,16 @@ class First extends Application {
 	public function zzz(){
 		$this->index();
 	}
+	
+	public function gimmie($number){
+		$this->data['pagebody'] = 'justone'; // this is the view we want shown
+		$this->load->model('Quotes');		
+	    $gimmieperson = $this->Quotes->get($number);
+		
+		$this->data['what'] = $gimmieperson['what'];
+		$this->data['who'] = $gimmieperson['who'];
+		$this->data['mug'] = $gimmieperson['mug'];
+		$this->render();
+	}
 }
 ?>

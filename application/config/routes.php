@@ -53,6 +53,7 @@ $route['dunno'] = function(){
 	};
 $route['comp([0-9]+)/.+'] = "wise/bingo";
 $route['sleep'] = 'first/zzz';
+$route['show/[0-9]'] = 'first/gimmie/3';
 	
 
 
