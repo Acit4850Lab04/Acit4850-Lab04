@@ -7,7 +7,7 @@ Starter Webapp - Quotes
 
 This is the starter webapp for Tutorial ci-normal01
 
-It is purposefully broken.
+It was purposefully broken, but all the links are now working.
 
 
 **************
@@ -15,6 +15,8 @@ Group:
 **************
 CooperWoro (Cooper Worobetz) A00925321
 LabSquid (Patrick Voth) A00932944
+Cooper fixed link 1, 3, 5, and 7
+LabSquid fixed link 2, 4, 6 and 8.
 
 **************
 Conventions
@@ -26,7 +28,7 @@ Brackets to be on different levels eg {
 
 Using spaces, not tabs
 
-
+Controllers to be capitalised (eg Last.php)
 
 
 **************

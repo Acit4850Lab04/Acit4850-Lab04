@@ -40,6 +40,22 @@
 
 $route['default_controller'] = "welcome";
 $route['404_override'] = '';
+$route['lock/(:any)/(:any)'] = "welcome/shucks";
+$route['dunno'] = function(){
+
+		//couldn't get it to load the helper(file) as it can't be done in routes.php
+		$source = "data/alright_PipBoy.jpg"; 
+		$mimeType = mime_content_type($source);
+		header("Content-type: " . $mimeType);
+		header('Content-Disposition: inline');
+		readfile($source);
+		die(); 
+	};
+$route['comp([0-9]+)/.+'] = "wise/bingo";
+$route['sleep'] = 'first/zzz';
+$route['show/[0-9]'] = 'first/gimmie/3';
+$route['wise/((bingo)|(\b(\w){4}\b))'] = 'bingo';
+	
 
 
 /* End of file routes.php */
